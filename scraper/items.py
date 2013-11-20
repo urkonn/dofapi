@@ -9,7 +9,7 @@
 #    description = Field()
 #    link = Field()
 
-from scrapy.contrib_exp.djangoitem import DjangoItem
+from scrapy.contrib.djangoitem import DjangoItem
 from apiapp.models import Publicacion
 
 class PublicacionItem(DjangoItem):

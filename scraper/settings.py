@@ -6,6 +6,8 @@
 #     http://doc.scrapy.org/en/latest/topics/settings.html
 #
 
+## Basado en https://github.com/CodeandoMexico/web-scraping
+
 BOT_NAME = 'scraper'
 
 SPIDER_MODULES = ['scraper.spiders']
@@ -13,12 +15,10 @@ NEWSPIDER_MODULE = 'scraper.spiders'
 
 # Crawl responsibly by identifying yourself (and your website) on the user-agent
 #USER_AGENT = 'basics (+http://www.yourdomain.com)'
-
+import os
 import sys
 
-sys.path.insert(0, '/home/urkonn/prog/Python/projects/dofapi/dofapi')
-
-import os
+sys.path.insert(0, '/home/user/.../dofapi/dofapi')
 
 os.environ['DJANGO_SETTINGS_MODULE'] = 'dofapi.settings'
 
