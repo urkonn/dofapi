@@ -20,7 +20,8 @@ scrapy crawl dof
 ./manage.py runserver
 
 
-http://127.0.0.1:8000/api/v1/publicacion/?format=json
-http://127.0.0.1:8000/api/v1/publicacion/1/?format=json
+* http://127.0.0.1:8000/api/v1/publicacion/?format=json
+
+* http://127.0.0.1:8000/api/v1/publicacion/1/?format=json
 
 
